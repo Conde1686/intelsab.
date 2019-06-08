@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+<i class="icon-menu burger-button"
+id="burger-menu"></i>
+
+<header class="header">
+   
+    <figure class="logo">
+    	<img src="images/agua.png" alt="logo" width="100px" height="75px">
+    </figure>
+	<nav class="menu">
+		<ol>
+			<li>
+				<a class="link" href="#"><h3>Inicio</h3></a>
+			</li>
+			<li>
+				<a class="link" href="#"><h3>Seccion 2</h3></a>
+			</li>
+			<li>
+				<a class="link" href="#"><h3>Formulario</h3></a>
+			</li>
+		</ol>
+	</nav>
+	
+</header>
+
+<br>
+
+
+
+<section class="rafael">
+    <div class="container">
+    	<h1>
+			Mucho  gusto  mi  nombre  es<strong>  Rafael  Gonzalez</strong><br>
+            mi  pasion  es  <strong>mi  diversion</strong>
+            <p>Futuro  tecnico  en  sistemas</p>
+            
+           <!-- <img class="rafael-image"
+             <src="images/reseña-assassin-s-creed-unity.jpg" width="350"
+            heigth="295"> -->
+	    </h1>
+	    
+    </div>
+	
+</section>
+
+<section class="portafolios">
+	<div class="container">
+		<h3>
+			Soy un artista aficionado<br>
+			Gamer por diversion<br>
+			Ayudante avanzado de Metal Mecanica<br>
+			Operador de Manlift
+		</h3>
+	</div>
+</section>
+
+  <div class="container">
+  	<h2 class="event-list-tittle">PROYECTO PAGINA WEB</h2>
+  </div>
+
+<section id="experiencia" class="event-list">
+ <div class="container">
+	<article class="event">
+	
+		<figure class="displey flex">
+      	    <div class="flexible-video">
+      	
+      		    <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/06c6Sxaidl8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+      	    </div>
+	    </figure>
+	    
+
+	    
+	    <div class="event-details">
+	    	
+	    	<h3 class="event-title">Game-Play</h3>
+	    	<p class="event-description">Contenido de entretenimiento</p>
+	    	<a class="event-url">disfruta de mas Aqui</a>
+	    	
+	    </div>
+	    
+	</article>
+	
+	<article class="event">
+		
+	    <figure class="displey-flex">
+			<div class="flexible-video">
+    		
+    		<iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/t45RR8h4chc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    		
+			</div>
+		</figure>
+		
+	    <div class="event-details">
+	    	
+	    	<h3 class="event-title">Rap tributo</h3>
+	    	<p class="event-description">Contenido de entretenimiento</p>
+	    	<a class="event-url">disfruta de mas Aqui</a>
+	    	
+	    </div>			
+					
+	</article>
+	
+ </div>  
+</section>
+
+<section id="contacto" class="contact">
+	
+	<div class="container">
+		<form action="rafita196prom2016@gmail.com" class="form-email">
+			<h3>diseño digital</h3>
+			<input type="text" placeholder="dejame tu email">
+			<button>Enviar</button>
+		</form>
+		
+		<div class="social">
+			<a href="" class="social-link twiter"></a>
+			<a href="https://www.facebook.com/mybdigital/" class="social-link
+			facebook"></a>
+			
+			
+		</div>
+		
+	</div>
+	
+</section>
+
+<footer class="footer">
+	<div class="container">
+		<div>
+			<p>Curso de dibujo diguital 2019</p>
+		</div>
+		<div>
+			<p>diseñado por Rafael Gonzalez
+			Facebook: Rafael Vicente Gonzalez Conde</p>
+		</div>
+	</div>
+</footer>
+
+<script>
+	const ipad = windows.matchMedia("screen and(max-width: 767px)")
+	
+	const menu = document.querySelector(".menu");
+	
+	const burgerButtom = document.querySelector("#burger-menu");
+	
+	burgerButtom.addEventListener("click" , hideShow)
+	
+	ipad.addEventListener(validation)
+	
+	function validation(enent) {
+		if (event.match){
+			burgerButtom.addEventListener("click" , hideShow)
+		}
+	}
+	
+	function hideShow() {
+		if (menu.classList.contains("is-active")){
+			menu.classList.remove("is-active");
+		}else{
+		}
+	}
+	</script>
+
+</body>
+</html>

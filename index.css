@@ -1,0 +1,404 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: chartreuse;
+}
+
+.header{
+	background-color: blueviolet;
+	display: flex;
+	justify-content: space-between;
+	height: 100px;
+	flex-wrap: wrap;
+}
+
+.menu{
+	height: inherit;
+}
+
+.header ol{
+	display: flex;
+	height: inherit;
+}
+
+.header ol li{
+	height: inherit;
+	display: flex;
+	align-items: center;
+}
+
+.header a{
+	display: flex;
+	align-items: center;
+	height: inherit;
+	padding: 0 10px;
+	color: whitesmoke;
+	text-decoration: none;
+}
+
+ol,
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.rafael{
+	background-color: dimgrey;
+	height: 300px;
+	background-image: url(images/reseña-assassin-s-creed-unity.jpg);
+	background-size: 400px 800px;
+	background-repeat: no-repeat;
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-position-x: right;
+	display: flex;
+}
+
+h1 {
+	front-size: 40px;
+	line-height: 1.5em;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	color: white;
+	margin: 0;
+}
+
+h1 strong{
+	color:  #026fff;
+}
+
+h2{
+	text-align: center;
+	color: blue;
+}
+
+.project{
+	border: 1px solid gray;
+	border-radius: 20px;
+	padding: 20px;
+	background: blue;
+	display: flex;
+	justify-content: space-between;
+}
+
+.portafolios {
+	background-color: lightskyblue;
+	height: 300px;
+	background-image: url(images/IMG_20181231_152846.jpg);
+	background-size: 400px 400px;
+	background-repeat: no-repeat;
+    display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: flex;
+	background-position-x: right;
+	display: flex;
+}
+
+h3 {
+	front-size: 40px;
+	line-height: 1.5em;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+	color: black;
+	margin: 0;
+}
+
+figure{
+	margin: 0px;
+}
+
+.event-list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.event {
+	margin: 1%;
+	width: 48%;
+	flex-shrink: 0;
+	overflow: hidden;
+	background: rgba(14,60,187,1.00)
+}
+
+.html-video{
+	height: auto;
+	object-fit: cover;
+	width: 100%;
+}
+
+.flexible-video{
+	padding-top: 56.25%;
+	position: relative;
+}
+
+.youtube-video{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.event-details{
+	margin: 20px 40px;
+	background-color: lightgreen;
+	margin-top: -40px;
+	position: relative;
+	padding: 20px;
+	text-align: center;
+}
+
+.event-description{
+	/*text-aling: left;*/
+}
+
+.event-url{
+	border: 1px solid blue;
+	padding: 5px 20px;
+	text-decoration: none;
+	color: blue;
+	border-radius: 5px;
+}
+
+.event-list-title{
+	margin-left: 10px;
+}
+
+.container{
+	max-width: width 1000px;
+	flex: 1;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+	padding: 0 1em;
+}
+
+.social {
+	display: flex;
+	align-items: center;
+}
+
+.social-link {
+	display: flex;
+	width: 50px;
+	height: 50px;
+	margin: 0 10px;
+	background-size: 50px 50px;
+}
+
+.social-link.facebook {
+	background-image: url(images/facebook-logo-png-5a35528eaa4f08.7998622015134439826976.jpg)
+}
+
+.social-link.twitter {
+	background-image: url(images/image.png)
+}
+
+.form-email {
+	padding: 5px;
+}
+
+.form-email input {
+	border-color: gray;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 10px 20px 10px 25px;
+}
+
+.form-email button {
+	display: block;
+	margin-top: 10px;
+	background: transparent;
+	color: white;
+	padding: 5px 0;
+	width: 100px;
+	border-color: white;
+	border-style: solid;
+	border-radius: 5px;
+}
+
+.form-email h3 {
+	font-family: "source sans pro", sans-serif;
+}
+
+.footer {
+	background-color: #1b2127;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.container {
+	max-width: width 1000px;
+	flex: 1;
+	margin: 0 auto;
+	display: inherit;
+	justify-content: inherit;
+	align-items: inherit;
+	height: inherit;
+	flex-wrap: inherit;
+	padding: 0 1em;
+}
+
+.burger-button {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: rgba(0,0,0,0.88);
+	display: none;
+	line-height: 40px;
+	text-align: center;
+	position: fixed;
+	z-index: 4;
+	left: 5px;
+	top: 5px;
+	color: white;
+}
+
+@media screen and (max-width: 1023px) {
+	.container{
+		padding: 0 1em;
+	}
+	.rafael {
+		height: auto;
+		position: relative;
+		overflow: hidden;
+		padding: 2em
+	}
+	.rafael-image {
+		position: absolute;
+		z-index: 1;
+		left: 0;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		width: 100%;
+	}
+	h1 {
+		font-size: 2em;
+		z-index: 2;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.burger-buttom {
+		display: block;
+	}
+	.header {
+		display: block;
+		height: auto;
+	}
+	.header ol {
+		display: block;
+	}
+	.header ol li {
+		height: 40px;
+		display: block;
+	}
+	.header a {
+		justify-content: center;
+		height: 40px;
+		font-size: 2em;
+		text-decoration: underline;
+		margin-bottom: .5em;
+	}
+	.header .logo{
+		text-align: center;
+	}
+	.menu {
+		position: fixed;
+		background: rgba(5,111,255,.9);
+		z-index: 3;
+		top: 0;
+		left: -100vw; /*para que el menu se oculte a la izquierda y se muestre al hacer click*/
+		width: 100vw;
+		bottom: 0;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		transition: .3s;/*crea efecto de transicion*/
+	}
+	.menu.is-active {
+		left: 0;
+	}
+	.project{
+		display: block;
+	}
+	.project-deails{
+		width: auto;
+	}
+	.project-imageContainer{
+		width: auto;
+		text-align: center;
+	}
+	.project-description{
+		font-size: .8em;
+	}
+	.event{
+		width: 95%;
+		flex-shrink: initial;
+		text-align: center;
+	}
+	.event img{
+		width: 95%;
+	}
+	.event-details{
+		margin: -40px 10px 10px 10px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	h1{
+		font-size: 1.5 em;
+	}
+	.event-details{
+		margin: -2em .5em .5em;
+		padding: 1em;
+	}
+	.contact{
+		height: auto;
+		padding: 1em 0;
+		display: block;
+		text-align: center;
+	}
+	.social{
+		display: flex;
+		justify-content: center;
+	}
+	.form-email buttom{
+		margin: 1em auto;
+	}
+	.footer{
+		display: block;
+		text-align: center;
+		border: 1px solid transparent;
+	}
+}
+
+@media screen and (max-width. 30px) {
+	h1{
+		font-size: 1.2em;
+		padding: 3em 1em;
+	}
+}
+
+
+
+
+
+
+
+
+
